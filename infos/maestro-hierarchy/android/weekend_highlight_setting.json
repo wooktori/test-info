@@ -1,0 +1,68 @@
+[
+  {
+    "resourceId": "android:id/content",
+    "bounds": "[0,132][1080,2337]",
+    "clickable": false
+  },
+  {
+    "text": "토요일",
+    "bounds": "[53,344][152,399]",
+    "clickable": false
+  },
+  {
+    "text": "토요일이 파란색으로 강조됩니다.",
+    "bounds": "[53,399][482,446]",
+    "clickable": false
+  },
+  {
+    "bounds": "[902,333][1028,459]",
+    "clickable": true
+  },
+  {
+    "text": "일요일",
+    "bounds": "[53,534][152,589]",
+    "clickable": false
+  },
+  {
+    "text": "일요일이 빨간색으로 강조됩니다.",
+    "bounds": "[53,589][482,636]",
+    "clickable": false
+  },
+  {
+    "bounds": "[902,523][1028,649]",
+    "clickable": true
+  },
+  {
+    "text": "공휴일",
+    "bounds": "[53,724][152,779]",
+    "clickable": false
+  },
+  {
+    "text": "공휴일이 빨간색으로 강조됩니다.",
+    "bounds": "[53,779][482,826]",
+    "clickable": false
+  },
+  {
+    "bounds": "[902,713][1028,839]",
+    "clickable": true
+  },
+  {
+    "bounds": "[34,154][160,280]",
+    "clickable": true
+  },
+  {
+    "text": "주말 및 휴일 날짜 강조",
+    "bounds": "[159,181][590,251]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Find Hub notification: Find Hub network",
+    "bounds": "[128,1][186,132]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Android System notification: Configure physical keyboards",
+    "bounds": "[186,1][244,132]",
+    "clickable": false
+  }
+]

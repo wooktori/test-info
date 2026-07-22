@@ -1,0 +1,222 @@
+[
+  {
+    "resourceId": "com.hellowo.day2life:id/action_bar_root",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "android:id/content",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/rootLy",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/appbar",
+    "bounds": "[0,132][1080,279]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/toolBarLy",
+    "bounds": "[0,132][1080,279]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/backBtn",
+    "bounds": "[0,140][131,271]",
+    "clickable": true
+  },
+  {
+    "text": "설정",
+    "resourceId": "com.hellowo.day2life:id/topTitleText",
+    "bounds": "[131,170][217,241]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/profileBtn",
+    "bounds": "[13,279][1067,532]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/profileImg",
+    "bounds": "[62,332][209,479]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Profile",
+    "bounds": "[71,341][200,470]",
+    "clickable": false
+  },
+  {
+    "text": "유환욱",
+    "resourceId": "com.hellowo.day2life:id/profileNameText",
+    "bounds": "[288,341][417,412]",
+    "clickable": false
+  },
+  {
+    "text": "wooka000@naver.com",
+    "resourceId": "com.hellowo.day2life:id/profileEmailText",
+    "bounds": "[288,420][639,469]",
+    "clickable": false
+  },
+  {
+    "text": "언어 및 시간대",
+    "resourceId": "com.hellowo.day2life:id/languageAndTimezoneText",
+    "bounds": "[66,585][268,690]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/localeSettingBtn",
+    "bounds": "[13,690][1067,861]",
+    "clickable": true
+  },
+  {
+    "text": "언어",
+    "resourceId": "com.hellowo.day2life:id/langText",
+    "bounds": "[66,748][134,803]",
+    "clickable": false
+  },
+  {
+    "text": "한국어",
+    "resourceId": "com.hellowo.day2life:id/languageText",
+    "bounds": "[927,751][1014,800]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/timezoneSettingBtn",
+    "bounds": "[13,861][1067,1032]",
+    "clickable": true
+  },
+  {
+    "text": "시간대",
+    "resourceId": "com.hellowo.day2life:id/timezone",
+    "bounds": "[66,919][168,974]",
+    "clickable": false
+  },
+  {
+    "text": "Asia/Seoul",
+    "resourceId": "com.hellowo.day2life:id/timezoneText",
+    "bounds": "[853,922][1014,971]",
+    "clickable": false
+  },
+  {
+    "text": "화면 설정",
+    "resourceId": "com.hellowo.day2life:id/displayText",
+    "bounds": "[66,1085][198,1190]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/themeBtn",
+    "bounds": "[13,1190][1067,1361]",
+    "clickable": true
+  },
+  {
+    "text": "테마",
+    "resourceId": "com.hellowo.day2life:id/theme",
+    "bounds": "[66,1248][134,1303]",
+    "clickable": false
+  },
+  {
+    "text": "기본",
+    "resourceId": "com.hellowo.day2life:id/themeText",
+    "bounds": "[956,1251][1014,1300]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/fontBtn",
+    "bounds": "[13,1361][1067,1532]",
+    "clickable": true
+  },
+  {
+    "text": "폰트",
+    "resourceId": "com.hellowo.day2life:id/font",
+    "bounds": "[66,1419][134,1474]",
+    "clickable": false
+  },
+  {
+    "text": "기본",
+    "resourceId": "com.hellowo.day2life:id/fontText",
+    "bounds": "[956,1422][1014,1471]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/fontSizeBtn",
+    "bounds": "[13,1532][1067,1703]",
+    "clickable": true
+  },
+  {
+    "text": "폰트 크기",
+    "resourceId": "com.hellowo.day2life:id/fontSize",
+    "bounds": "[66,1590][210,1645]",
+    "clickable": false
+  },
+  {
+    "text": "1.0",
+    "resourceId": "com.hellowo.day2life:id/fontSizeText",
+    "bounds": "[968,1593][1014,1642]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/lineOpacityBtn",
+    "bounds": "[13,1703][1067,1874]",
+    "clickable": true
+  },
+  {
+    "text": "캘린더 선 불투명도",
+    "resourceId": "com.hellowo.day2life:id/lineOpacityText",
+    "bounds": "[66,1761][354,1816]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/weekStartingDayBtn",
+    "bounds": "[13,1874][1067,2045]",
+    "clickable": true
+  },
+  {
+    "text": "주 시작 요일",
+    "resourceId": "com.hellowo.day2life:id/weekStart",
+    "bounds": "[66,1932][252,1987]",
+    "clickable": false
+  },
+  {
+    "text": "일",
+    "resourceId": "com.hellowo.day2life:id/weekStartingDayText",
+    "bounds": "[985,1935][1014,1984]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/weekendLayout",
+    "bounds": "[13,2045][1067,2216]",
+    "clickable": true
+  },
+  {
+    "text": "주말 및 휴일 날짜 강조",
+    "resourceId": "com.hellowo.day2life:id/weekendText",
+    "bounds": "[66,2103][404,2158]",
+    "clickable": false
+  },
+  {
+    "text": "주 번호 표시",
+    "resourceId": "com.hellowo.day2life:id/weekNumberText",
+    "bounds": "[66,2274][252,2329]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/weekNumToggle",
+    "bounds": "[919,2266][1041,2337]",
+    "clickable": true
+  },
+  {
+    "accessibilityText": "Find Hub notification: Find Hub network",
+    "bounds": "[128,1][186,132]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Android System notification: Configure physical keyboards",
+    "bounds": "[186,1][244,132]",
+    "clickable": false
+  }
+]

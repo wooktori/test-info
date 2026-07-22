@@ -1,0 +1,825 @@
+[
+  {
+    "resourceId": "com.hellowo.day2life:id/action_bar_root",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "android:id/content",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/mainRootView",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/dragEventView",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/drawerLy",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuView",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/rootLy",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuBackgroundImg",
+    "bounds": "[0,0][975,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuScrollView",
+    "bounds": "[0,0][975,2193]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuProfileLy",
+    "bounds": "[26,210][922,336]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuProfileImg",
+    "bounds": "[26,210][152,336]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Profile Ring",
+    "bounds": "[37,221][142,326]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Profile",
+    "bounds": "[46,230][133,317]",
+    "clickable": false
+  },
+  {
+    "text": "유환욱",
+    "resourceId": "com.hellowo.day2life:id/menuProfileText",
+    "bounds": "[178,213][295,276]",
+    "clickable": false
+  },
+  {
+    "text": "wooka000@naver.com",
+    "resourceId": "com.hellowo.day2life:id/menuProfileEmailText",
+    "bounds": "[178,287][520,333]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuCategoryBtn",
+    "bounds": "[0,389][975,533]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/categoryImg",
+    "bounds": "[39,415][131,507]",
+    "clickable": false
+  },
+  {
+    "text": "카테고리",
+    "resourceId": "com.hellowo.day2life:id/categoryText",
+    "bounds": "[157,438][975,484]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/holidayBtn",
+    "bounds": "[0,533][975,677]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/holidayImg",
+    "bounds": "[39,559][131,651]",
+    "clickable": false
+  },
+  {
+    "text": "공휴일 구독",
+    "resourceId": "com.hellowo.day2life:id/holidayText",
+    "bounds": "[157,582][975,628]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuConnectionBtn",
+    "bounds": "[0,677][975,821]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuConnectionImg",
+    "bounds": "[39,703][131,795]",
+    "clickable": false
+  },
+  {
+    "text": "연결",
+    "resourceId": "com.hellowo.day2life:id/menuConnectionText",
+    "bounds": "[157,726][975,772]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuImportBtn",
+    "bounds": "[0,821][975,965]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuImportImg",
+    "bounds": "[39,847][131,939]",
+    "clickable": false
+  },
+  {
+    "text": "가져오기",
+    "resourceId": "com.hellowo.day2life:id/menuImportText",
+    "bounds": "[157,870][975,916]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuStoreBtn",
+    "bounds": "[0,965][975,1109]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuStoreImg",
+    "bounds": "[39,991][131,1083]",
+    "clickable": false
+  },
+  {
+    "text": "스토어",
+    "resourceId": "com.hellowo.day2life:id/menuStoreText",
+    "bounds": "[157,1014][975,1060]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuPremiumBtn",
+    "bounds": "[0,1109][975,1253]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuPremiumImg",
+    "bounds": "[39,1135][131,1227]",
+    "clickable": false
+  },
+  {
+    "text": "프리미엄",
+    "resourceId": "com.hellowo.day2life:id/menuPremiumText",
+    "bounds": "[157,1158][975,1204]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuSupportBtn",
+    "bounds": "[0,1253][975,1397]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuSupportImg",
+    "bounds": "[39,1279][131,1371]",
+    "clickable": false
+  },
+  {
+    "text": "고객지원",
+    "resourceId": "com.hellowo.day2life:id/menuSupportText",
+    "bounds": "[157,1302][975,1348]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuSettingsBtn",
+    "bounds": "[0,1397][975,1541]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuSettingsImg",
+    "bounds": "[39,1423][131,1515]",
+    "clickable": false
+  },
+  {
+    "text": "설정",
+    "resourceId": "com.hellowo.day2life:id/menuSettingsText",
+    "bounds": "[157,1446][975,1492]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuSyncLy",
+    "bounds": "[0,2179][975,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuSyncImg",
+    "bounds": "[66,2237][108,2279]",
+    "clickable": false
+  },
+  {
+    "text": "동기화 : 7월 21일 오후 03:00",
+    "resourceId": "com.hellowo.day2life:id/menuSyncText",
+    "bounds": "[121,2237][461,2279]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/rootLy",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/calendarBackImg",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/calendarLy",
+    "bounds": "[0,0][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/mainTopNavigation",
+    "bounds": "[0,132][1080,263]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/topMenuBar",
+    "bounds": "[0,132][1080,263]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/menuBtn",
+    "bounds": "[18,132][149,263]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/mainProfile",
+    "bounds": "[31,145][136,250]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Profile Ring",
+    "bounds": "[31,145][136,250]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Profile",
+    "bounds": "[40,154][127,241]",
+    "clickable": false
+  },
+  {
+    "text": "2026년 7월",
+    "resourceId": "com.hellowo.day2life:id/mainMonthText",
+    "bounds": "[163,132][402,263]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/topMenuArrowImg",
+    "bounds": "[428,171][449,224]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/searchBtn",
+    "bounds": "[826,132][957,263]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/invitationBtn",
+    "bounds": "[936,132][1067,263]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/invitationBtnImg",
+    "bounds": "[936,132][1067,263]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/dayOfWeek",
+    "bounds": "[0,263][1080,315]",
+    "clickable": false
+  },
+  {
+    "text": "일",
+    "bounds": "[0,263][154,315]",
+    "clickable": false
+  },
+  {
+    "text": "월",
+    "bounds": "[154,263][308,315]",
+    "clickable": false
+  },
+  {
+    "text": "화",
+    "bounds": "[308,263][462,315]",
+    "clickable": false
+  },
+  {
+    "text": "수",
+    "bounds": "[462,263][616,315]",
+    "clickable": false
+  },
+  {
+    "text": "목",
+    "bounds": "[616,263][770,315]",
+    "clickable": false
+  },
+  {
+    "text": "금",
+    "bounds": "[770,263][925,315]",
+    "clickable": false
+  },
+  {
+    "text": "토",
+    "bounds": "[925,263][1080,315]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/timeBlocksCalendarView",
+    "bounds": "[0,315][1080,2206]",
+    "clickable": false
+  },
+  {
+    "text": "27",
+    "bounds": "[5,320][25,344]",
+    "clickable": false
+  },
+  {
+    "text": "28",
+    "bounds": "[51,320][100,369]",
+    "clickable": false
+  },
+  {
+    "text": "29",
+    "bounds": "[205,320][254,369]",
+    "clickable": false
+  },
+  {
+    "text": "30",
+    "bounds": "[359,320][408,369]",
+    "clickable": false
+  },
+  {
+    "text": "1",
+    "bounds": "[513,320][562,369]",
+    "clickable": false
+  },
+  {
+    "text": "2",
+    "bounds": "[667,320][716,369]",
+    "clickable": false
+  },
+  {
+    "text": "3",
+    "bounds": "[821,320][870,369]",
+    "clickable": false
+  },
+  {
+    "text": "4",
+    "bounds": "[976,320][1025,369]",
+    "clickable": false
+  },
+  {
+    "text": "28",
+    "bounds": "[5,699][25,723]",
+    "clickable": false
+  },
+  {
+    "text": "5",
+    "bounds": "[51,699][100,748]",
+    "clickable": false
+  },
+  {
+    "text": "6",
+    "bounds": "[205,699][254,748]",
+    "clickable": false
+  },
+  {
+    "text": "7",
+    "bounds": "[359,699][408,748]",
+    "clickable": false
+  },
+  {
+    "text": "8",
+    "bounds": "[513,699][562,748]",
+    "clickable": false
+  },
+  {
+    "text": "9",
+    "bounds": "[667,699][716,748]",
+    "clickable": false
+  },
+  {
+    "text": "10",
+    "bounds": "[821,699][870,748]",
+    "clickable": false
+  },
+  {
+    "text": "11",
+    "bounds": "[976,699][1025,748]",
+    "clickable": false
+  },
+  {
+    "text": "29",
+    "bounds": "[5,1078][25,1102]",
+    "clickable": false
+  },
+  {
+    "text": "12",
+    "bounds": "[51,1078][100,1127]",
+    "clickable": false
+  },
+  {
+    "text": "13",
+    "bounds": "[205,1078][254,1127]",
+    "clickable": false
+  },
+  {
+    "text": "14",
+    "bounds": "[359,1078][408,1127]",
+    "clickable": false
+  },
+  {
+    "text": "15",
+    "bounds": "[513,1078][562,1127]",
+    "clickable": false
+  },
+  {
+    "text": "16",
+    "bounds": "[667,1078][716,1127]",
+    "clickable": false
+  },
+  {
+    "text": "17",
+    "bounds": "[821,1078][870,1127]",
+    "clickable": false
+  },
+  {
+    "text": "18",
+    "bounds": "[976,1078][1025,1127]",
+    "clickable": false
+  },
+  {
+    "text": "30",
+    "bounds": "[5,1457][25,1481]",
+    "clickable": false
+  },
+  {
+    "text": "19",
+    "bounds": "[51,1457][100,1506]",
+    "clickable": false
+  },
+  {
+    "text": "20",
+    "bounds": "[205,1457][254,1506]",
+    "clickable": false
+  },
+  {
+    "text": "21",
+    "bounds": "[359,1457][408,1506]",
+    "clickable": false
+  },
+  {
+    "text": "22",
+    "bounds": "[513,1457][562,1506]",
+    "clickable": false
+  },
+  {
+    "text": "23",
+    "bounds": "[667,1457][716,1506]",
+    "clickable": false
+  },
+  {
+    "text": "24",
+    "bounds": "[821,1457][870,1506]",
+    "clickable": false
+  },
+  {
+    "text": "25",
+    "bounds": "[976,1457][1025,1506]",
+    "clickable": false
+  },
+  {
+    "text": "31",
+    "bounds": "[5,1836][25,1860]",
+    "clickable": false
+  },
+  {
+    "text": "26",
+    "bounds": "[51,1836][100,1885]",
+    "clickable": false
+  },
+  {
+    "text": "27",
+    "bounds": "[205,1836][254,1885]",
+    "clickable": false
+  },
+  {
+    "text": "28",
+    "bounds": "[359,1836][408,1885]",
+    "clickable": false
+  },
+  {
+    "text": "29",
+    "bounds": "[513,1836][562,1885]",
+    "clickable": false
+  },
+  {
+    "text": "30",
+    "bounds": "[667,1836][716,1885]",
+    "clickable": false
+  },
+  {
+    "text": "31",
+    "bounds": "[821,1836][870,1885]",
+    "clickable": false
+  },
+  {
+    "text": "1",
+    "bounds": "[976,1836][1025,1885]",
+    "clickable": false
+  },
+  {
+    "bounds": "[0,315][154,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[154,315][308,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[308,315][462,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[462,315][616,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[616,315][770,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[770,315][925,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[925,315][1080,691]",
+    "clickable": true
+  },
+  {
+    "bounds": "[0,691][154,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[154,691][308,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[308,691][462,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[462,691][616,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[616,691][770,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[770,691][925,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[925,691][1080,1070]",
+    "clickable": true
+  },
+  {
+    "bounds": "[0,1070][154,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[154,1070][308,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[308,1070][462,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[462,1070][616,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[616,1070][770,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[770,1070][925,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[925,1070][1080,1449]",
+    "clickable": true
+  },
+  {
+    "bounds": "[0,1449][154,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[154,1449][308,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[308,1449][462,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[462,1449][616,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[616,1449][770,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[770,1449][925,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[925,1449][1080,1828]",
+    "clickable": true
+  },
+  {
+    "bounds": "[0,1828][154,2206]",
+    "clickable": true
+  },
+  {
+    "bounds": "[154,1828][308,2206]",
+    "clickable": true
+  },
+  {
+    "bounds": "[308,1828][462,2206]",
+    "clickable": true
+  },
+  {
+    "bounds": "[462,1828][616,2206]",
+    "clickable": true
+  },
+  {
+    "bounds": "[616,1828][770,2206]",
+    "clickable": true
+  },
+  {
+    "bounds": "[770,1828][925,2206]",
+    "clickable": true
+  },
+  {
+    "bounds": "[925,1828][1080,2206]",
+    "clickable": true
+  },
+  {
+    "text": "휴가",
+    "bounds": "[309,759][918,804]",
+    "clickable": false
+  },
+  {
+    "text": "[QA-TEST] 테스트",
+    "bounds": "[463,1174][609,1219]",
+    "clickable": false
+  },
+  {
+    "text": "제헌절",
+    "bounds": "[771,1128][918,1164]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/bottomTab",
+    "bounds": "[0,2206][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/bottomTab",
+    "bounds": "[0,2206][1080,2337]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/homeTab",
+    "bounds": "[0,2206][216,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/homeTabImg",
+    "bounds": "[42,2206][173,2323]",
+    "clickable": false
+  },
+  {
+    "text": "홈",
+    "resourceId": "com.hellowo.day2life:id/homeTabText",
+    "bounds": "[97,2291][118,2326]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/calendarTab",
+    "bounds": "[216,2206][432,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/calendarTabImgBack",
+    "bounds": "[258,2206][389,2323]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/calendarTabImg",
+    "bounds": "[258,2206][389,2323]",
+    "clickable": false
+  },
+  {
+    "text": "21",
+    "resourceId": "com.hellowo.day2life:id/calendarTabIconText",
+    "bounds": "[258,2206][389,2328]",
+    "clickable": false
+  },
+  {
+    "text": "캘린더",
+    "resourceId": "com.hellowo.day2life:id/calendarTabText",
+    "bounds": "[292,2291][355,2326]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/todoTab",
+    "bounds": "[432,2206][648,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/todoTabImg",
+    "bounds": "[474,2206][605,2323]",
+    "clickable": false
+  },
+  {
+    "text": "할일",
+    "resourceId": "com.hellowo.day2life:id/todoTabText",
+    "bounds": "[519,2291][561,2326]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/habitTab",
+    "bounds": "[648,2206][864,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/habitTabImg",
+    "bounds": "[690,2206][821,2323]",
+    "clickable": false
+  },
+  {
+    "text": "습관",
+    "resourceId": "com.hellowo.day2life:id/habitTabText",
+    "bounds": "[735,2291][777,2326]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/memoTab",
+    "bounds": "[864,2206][1080,2337]",
+    "clickable": true
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/memoBtnImg",
+    "bounds": "[906,2206][1037,2323]",
+    "clickable": false
+  },
+  {
+    "text": "언젠가",
+    "resourceId": "com.hellowo.day2life:id/memoTabText",
+    "bounds": "[940,2291][1003,2326]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/bottomDivider",
+    "bounds": "[0,2206][1080,2209]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/container",
+    "bounds": "[0,0][1080,2206]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/topBarImg",
+    "bounds": "[0,0][1080,315]",
+    "clickable": false
+  },
+  {
+    "resourceId": "com.hellowo.day2life:id/bottomBarImg",
+    "bounds": "[0,2206][1080,2337]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Find Hub notification: Find Hub network",
+    "bounds": "[128,1][186,132]",
+    "clickable": false
+  },
+  {
+    "accessibilityText": "Android System notification: Configure physical keyboards",
+    "bounds": "[186,1][244,132]",
+    "clickable": false
+  }
+]
