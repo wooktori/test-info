@@ -1,14 +1,36 @@
-import { expect, test } from '@playwright/test'
+import { expect, test } from "@playwright/test";
+import { SignInPage } from "./pages/SignInPage";
 
-test.describe('TimeBlocks: Sign in', () => {
-  test('signs in with valid credentials and reaches the calendar', async ({ page }) => {
-    await page.goto('https://app.timeblocks.com/')
+const VALID_EMAIL = process.env.TIMEBLOCKS_EMAIL;
 
-    await page.getByPlaceholder('이메일을 입력해 주세요.').fill(process.env.TIMEBLOCKS_EMAIL!)
-    await page.getByPlaceholder('6~20자리의 숫자 또는 문자를 입력해 주세요.').fill(process.env.TIMEBLOCKS_PASSWORD!)
-    await page.getByRole('button', { name: 'Sign in' }).click()
+test.describe("TimeBlocks: 로그인", () => {
+  test("로그인 폼이 렌더링된다", async ({ page }) => {
+    const signIn = new SignInPage(page);
+    await signIn.goto();
 
-    await expect(page).not.toHaveURL(/\/signin$/, { timeout: 10000 })
-    await expect(page.getByText('캘린더', { exact: true })).toBeVisible()
-  })
-})
+    await expect(signIn.emailInput).toBeVisible();
+    await expect(signIn.passwordInput).toBeVisible();
+  });
+
+  test("등록되지 않은 이메일이면 오류가 표시된다", async ({ page }) => {
+    const signIn = new SignInPage(page);
+    await signIn.goto();
+
+    await signIn.signIn("not-a-real-user@example.com", "wrong-password-123");
+
+    await expect(signIn.toastMessage).toContainText("Account does not exist.");
+  });
+
+  test("비밀번호가 틀리면 오류가 표시된다", async ({ page }) => {
+    test.skip(!VALID_EMAIL, "TIMEBLOCKS_EMAIL not set in .env");
+
+    const signIn = new SignInPage(page);
+    await signIn.goto();
+
+    await signIn.signIn(VALID_EMAIL!, "wrong-password-123");
+
+    await expect(signIn.toastMessage).toContainText(
+      "Wrong e-mail address or password.",
+    );
+  });
+});

@@ -2,6 +2,8 @@ appId: com.day2life.JuneFree
 ---
 - launchApp:
     clearState: true
+
+# 앱 실행 후 초기 화면 확인
 - tapOn: "사용법 확인하기"
 - tapOn: "허용 안 함"
 - tapOn: "IntroRight"
@@ -10,6 +12,7 @@ appId: com.day2life.JuneFree
     point: 59%,26%
 - tapOn: "나가기"
 - tapOn: "로그인"
+
 # 로그인
 - tapOn: "이메일"
 - inputText: ${TIMEBLOCKS_EMAIL}
@@ -17,5 +20,5 @@ appId: com.day2life.JuneFree
 - inputText: ${TIMEBLOCKS_PASSWORD}
 - tapOn: "로그인"
 
-- tapOn: "XCircle"
+# 로그인 성공 후 메인 화면 확인
 - assertVisible: "캘린더"
