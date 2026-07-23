@@ -1,0 +1,13 @@
+appId: com.day2life.JuneFree
+---
+- launchApp:
+    clearState: false
+
+- tapOn:
+    id: "ProfileDefault"
+- tapOn: "설정"
+- tapOn: "주말 및 휴일 날짜 강조"
+- tapOn: "토요일"
+- tapOn: "설정"
+- tapOn: "CloseNavi"
+- tapOn: "TabCalendar"

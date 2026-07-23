@@ -5,7 +5,7 @@ appId: com.day2life.JuneFree
 
 # 앱 실행 후 초기 화면 확인
 - tapOn: "사용법 확인하기"
-- tapOn: "허용 안 함"
+- tapOn: "허용"
 
 - tapOn:
     point: 59%,26%
