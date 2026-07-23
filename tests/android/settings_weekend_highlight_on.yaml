@@ -1,32 +1,7 @@
 appId: com.hellowo.day2life
 ---
 - launchApp:
-    clearState: true
-- tapOn:
-    id: "howEasyBtn"
-- tapOn:
-    id: "laterBtn"
-- tapOn:
-    id: "nextBtn"
-- tapOn:
-    point: 59%,26%
-- tapOn: "Leave"
-- tapOn: "Sign in"
-
-- tapOn: "이메일을 입력해 주세요."
-- inputText: ${TIMEBLOCKS_EMAIL}
-- tapOn: "6~20자리의 숫자 또는 문자를 입력해 주세요."
-- inputText: ${TIMEBLOCKS_PASSWORD}
-- tapOn: "Sign in"
-
-#팝업(로그인 저장, 프로모션...)에서 flaky
-- tapOn: "Never"
-- tapOn:
-    point: 85%,26%
-- tapOn:
-    point: 85%,26%
-
-- assertVisible: "캘린더"
+    clearState: false
 
 # 좌측 상단 프로필 버튼 -> 사이드 메뉴
 - tapOn:
@@ -41,10 +16,12 @@ appId: com.hellowo.day2life
 
 # 토요일 강조 토글 ON (weekend_highlight_setting.json 기준, 별도 resourceId 없어 좌표 사용)
 - tapOn:
-    point: 89%,17%
+    point: 84%,14%
 
-- back
-- back
+- tapOn:
+    point:3%,6%
+- tapOn:
+    id: "backBtn"
 
 # 캘린더로 복귀 확인 (색상 변경 여부는 Maestro로 assert 불가 -> 스크린샷으로 육안 확인)
 - assertVisible: "캘린더"
