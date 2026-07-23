@@ -8,8 +8,6 @@ appId: com.hellowo.day2life
 - tapOn:
     id: "laterBtn"
 - tapOn:
-    id: "nextBtn"
-- tapOn:
     point: 59%,26%
 - tapOn: "Leave"
 - tapOn: "Sign in"
